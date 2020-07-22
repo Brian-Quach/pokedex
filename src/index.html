@@ -1,72 +1,103 @@
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <title>Pokedex</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Pokedex</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+	</style>
 </head>
+
 <body>
-<div id="container">
-  <div id="pokedex">
-		<div id="left">
-			<div id="left-top">
-				
-			</div>
-			<div id="image-screen">
-				<img id="pokemon-image">
-			</div>
-			<div id="left-bottom">
-				<div id="speaker">
+	<div id="container">
+		<div id="pokedex">
+			<div id="left">
+				<div id="left-top">
+					<div id="left-top-upper"></div>
+					<div class="blue-button-xlarge"></div>
+					<div class="top-button-small red-button"></div>
+					<div class="top-button-small yellow-button"></div>
+					<div class="top-button-small green-button"></div>
+				</div>
+				<div id="image-screen">
+					<div id="pokemon-image-border">
+						<div id="screen-top-lights">
+							<div class="light-wrapper">
+								<div class="led-small red-led"></div>
+								<div class="led-small red-led"></div>
+							</div>
+						</div>
+						<img id="pokemon-image">
+						<div id="screen-bottom">
+							<div class="led-med red-led"></div>
+							<div class="speaker">
+								<div></div>
+								<div></div>
+								<div></div>
+								<div></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="long-leds">
+					<div class="red-led led-long"></div>
+					<div class="blue-led led-long"></div>
+				</div>
+				<div id="large-button-left" class="black-button button-large">
 				</div>
 				<div id="pokemon-name">
 				</div>
-				<div id="d-pad">
+				<div id="d-pad" class="d-pad">
 				</div>
 			</div>
-		</div>
-		<div id="right">
-			<div id="pokemon-details">
-				<p id="pokemon-type" class="detail-line">
-				</p>
-				<p id="pokemon-height" class="detail-line">
-				</p>
-				<p id="pokemon-weight" class="detail-line">
-				</p>
-			</div>
-			<div id="num-pad">
-				<div class="num-pad-button" id="num-pad-0">
+			<div id="right">
+				<!-- 			<div id="right-top">
+			</div> -->
+				<div id="pokemon-details">
+					<p id="pokemon-type" class="detail-line">
+					</p>
+					<p id="pokemon-height" class="detail-line">
+					</p>
+					<p id="pokemon-weight" class="detail-line">
+					</p>
 				</div>
-				<div class="num-pad-button" id="num-pad-1">
+				<div id="num-pad">
+					<div class="num-pad-button" id="num-pad-0">
+					</div>
+					<div class="num-pad-button" id="num-pad-1">
+					</div>
+					<div class="num-pad-button" id="num-pad-2">
+					</div>
+					<div class="num-pad-button" id="num-pad-3">
+					</div>
+					<div class="num-pad-button" id="num-pad-4">
+					</div>
+					<div class="num-pad-button" id="num-pad-5">
+					</div>
+					<div class="num-pad-button" id="num-pad-6">
+					</div>
+					<div class="num-pad-button" id="num-pad-7">
+					</div>
+					<div class="num-pad-button" id="num-pad-8">
+					</div>
+					<div class="num-pad-button" id="num-pad-9">
+					</div>
 				</div>
-				<div class="num-pad-button" id="num-pad-2">
+				<div id="search-box">
+					<input type="number" id="pokemon-number" name="pokemon-number" min="1" max="807">
 				</div>
-				<div class="num-pad-button" id="num-pad-3">
-				</div>
-				<div class="num-pad-button" id="num-pad-4">
-				</div>
-				<div class="num-pad-button" id="num-pad-5">
-				</div>
-				<div class="num-pad-button" id="num-pad-6">
-				</div>
-				<div class="num-pad-button" id="num-pad-7">
-				</div>
-				<div class="num-pad-button" id="num-pad-8">
-				</div>
-				<div class="num-pad-button" id="num-pad-9">
-				</div>
-			</div>
-			<div id="search-box">
-				<input type="number" id="pokemon-number" name="pokemon-number" min="1" max="807"> 
 				<div id="search-button">
 				</div>
-			</div>
-			<div id="navigation-buttons">
-				<div class="nav-button" id="nav-button-left">
-				</div>
-				<div class="nav-button" id="nav-button-right">
+				<div id="navigation-buttons">
+					<div class="nav-button" id="nav-button-left">
+					</div>
+					<div class="nav-button" id="nav-button-right">
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 </body>
+
 </html>
